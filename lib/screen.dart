@@ -24,7 +24,7 @@ class _ResultState extends State<Result> {
         Center(child: Text("BMI is ${widget.BMI.round()}",
           style: TextStyle(fontWeight: FontWeight.w800,fontSize:40 ),)),
         Center(
-          child: Text("You Are ${widget.weightr}",
+          child: Text(" ALert!! you Are ${widget.weightr}",
             style: TextStyle(fontWeight: FontWeight.w800,fontSize:40, ), textAlign: TextAlign.center, ),
         ),
         GestureDetector(
